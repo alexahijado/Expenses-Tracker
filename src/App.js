@@ -1,5 +1,8 @@
-import Expenses from "./components/Expenses";
-function App() {
+import React from "react";
+import Expenses from "./components/expenses/Expenses";
+
+// ALTERNATIVE WAY OF WRITING FUNCTIONS
+const App = () => {
   const expenses = [
     {
       id: "e1",
