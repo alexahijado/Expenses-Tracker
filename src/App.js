@@ -1,5 +1,7 @@
 import React from "react";
 import Expenses from "./components/expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
+
 
 // ALTERNATIVE WAY OF WRITING FUNCTIONS
 const App = () => {
@@ -32,7 +34,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses items={expenses}/>
     </div>
   );
